@@ -2,7 +2,7 @@
 async function loadTextFile() {
     try {
         // Fetch the content from the text file
-        const response = await fetch('/Data/version.txt');
+        const response = await fetch('./version.txt');
         
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
