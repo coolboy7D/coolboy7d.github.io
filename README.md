@@ -11,8 +11,9 @@ Fun stats:
 2/3/26: Lines of code written: 471
 
 To-Do List:
-* Finish Keymaster and Abilities page
+* Finish Abilities page
 * Add more pages
 * Add audio and images to each page
 * Add more content to pages
 * Dark Mode..?
+This list won't say exactly what I'll do next (I tend to go on side quests a lot), but it'll help give you an idea.
