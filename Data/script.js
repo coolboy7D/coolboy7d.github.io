@@ -15,7 +15,7 @@ async function loadTextFile() {
         document.getElementById('text-container').textContent = textContent;
     } catch (error) {
         console.error('Error fetching the text file:', error);
-        document.getElementById('text-container').textContent = 'Failed to load content.';
+        document.getElementById('text-container').textContent = 'Cool fucked up here.';
     }
 }
 
