@@ -85,7 +85,7 @@
         too!! It's currently Raven for most pages, but I plan on having it be each individual character for each of their own pages. The only page that<br>
         doesn't currently have Raven as a tab icon is Pastel, who instead has Pastel as a tab icon. Also changed Keymaster's defining trait to Confidence,<br>
         because Entitlement was a little <em>too</em> on the nose. Added version number at the bottom of every page!! The naming convention is right above<br>
-        it.
+        it. Changed the way page files were stored internally to allow for easier, dynamic version numbers.
     </p>
     <!--2/3/26:-->
     <p>
@@ -101,9 +101,10 @@
             <small>
                 Update convention: major.minor.patch(stage of dev)<br>
             </small>
-            Site Version:<iframe src="/Data/version.txt">Loading...</iframe>
+            Site Version: <div id="text-container">Loading...</div>
         </small>
     </small>
+    <script src="script.js"></script>
         </aside>
     </body>
 </html>
