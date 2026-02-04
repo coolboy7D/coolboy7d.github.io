@@ -21,3 +21,4 @@ async function loadTextFile() {
 
 // Call the function when the script loads
 loadTextFile();
+// btw i freaking hate this file did i tell you that
