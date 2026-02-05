@@ -11,7 +11,6 @@ Fun stats:
 2/3/26: Lines of code written: 471
 
 To-Do List:
-* Finish Abilities page
 * Add more pages
 * Add audio and images to each page
 * Add more content to pages
