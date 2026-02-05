@@ -9,9 +9,9 @@ Have fun!
 
 Fun stats:
 2/3/26: Lines of code written: 471
+2/4/26: Lines of code written: 474 (reminder that this doesnt include any of the days before)
 
 To-Do List:
-* Add more pages
 * Add audio and images to each page
 * Add more content to pages
 * Dark Mode..?
