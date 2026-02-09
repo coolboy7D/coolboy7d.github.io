@@ -14,7 +14,7 @@
             }
         </style>
     </head>
-    <body style="background-color: gainsboro;">
+    <body>
         <aside style="width: 95%; padding-left: 15px; margin-left: 15px; float: right;">
             <h1 style="color: red; text-shadow: 2px 2px 2px;">Oh Noes!</h1>
         <h2 style="color: darkred; text-shadow: 1px 1px 1px;">
@@ -37,18 +37,23 @@
         <h3>
             <a href="./">Back to home</a>
         </h3>
-        <!--KEEP THIS AT VERY BOTTOM!!-->
+        <!--Keep these at very bottom-->
         <br>
-        <br>
-        <small>
-            <small style="color: gray;">
-                <small>
-                    Update convention: major.minor.patch(stage of dev)<br>
-                </small>
-                Site Version: <div id="text-container">Loading...</div>
-            </small>
-        </small>
-        <script src="script.js"></script>
+        <!-- Dark mode toggle button -->
+        <button id="dark-toggle" type="button" style="width: fit-content; height: fit-content;">
+            Toggle Dark Mode
+        </button>
+
+        <br><br>
+        <b><small><small>
+            Update convention: major.minor.patch(stage of dev)<br>
+            Site Version: <div id="text-container">Loading...</div>
+        </small></small></b>
+
+        <!-- Dark mode JS -->
+        <script src="./darkmode.js"></script>
+        <!-- Version number JS -->
+        <script src="./script.js"></script>
         </aside>
     </body>
 </html>

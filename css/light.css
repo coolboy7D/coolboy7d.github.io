@@ -1,0 +1,12 @@
+/* /css/light.css */
+body {
+    background-color: gainsboro;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a { color: blue; }
+h1,h2,h5,h6,p { color: black; }
+small { color: gray; }
+p { border: 2px solid black; box-shadow: 2px 2px black; }
+

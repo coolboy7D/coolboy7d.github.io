@@ -8,7 +8,7 @@
         <link rel="icon" type="image/png" href="./Data/ravenpixel.png">
     </head>
 
-    <body style="background-color: gainsboro;">
+    <body>
         <aside style="all: initial; width: 95%; padding-left: 15px; margin-left: 15px; float: right;">
             <h1 style=
             "border: 4px solid darkslategray;
@@ -26,10 +26,9 @@
             border-bottom: 2px solid;
             border-left: 1px solid;
             border-right: 1px solid;
-            border-radius: 25%;
-            color: black;">
+            border-radius: 25%;">
                 <br>"A page that contains every page"<br>
-                <small><b style="color: black;">- Cool<br><br></b></small>
+                <small><b>- Cool<br><br></b></small>
             </h5>
 
             <h3>
@@ -37,11 +36,9 @@
             </h3>
 
             <p style=
-            "border: 2px solid black;
-            border-radius: 30px;
+            "border-radius: 30px;
             text-align: center;
-            background-color: bisque;
-            box-shadow: 2px 2px;">
+            background-color: bisque;">
                 <br>Character Pages:<br><br>
 
             <small>
@@ -110,18 +107,23 @@
             </small>
             <br><br>
             </p>
-            <!--KEEP THIS AT VERY BOTTOM!!-->
+            <!--Keep these at very bottom-->
             <br>
-            <br>
-            <small>
-                <small style="color: gray;">
-                    <small>
-                        Update convention: major.minor.patch(stage of dev)<br>
-                    </small>
-                    Site Version: <div id="text-container">Loading...</div>
-                </small>
-            </small>
-            <script src="script.js"></script>
+            <!-- Dark mode toggle button -->
+            <button id="dark-toggle" type="button" style="width: fit-content; height: fit-content;">
+                Toggle Dark Mode
+            </button>
+
+            <br><br>
+            <b><small><small>
+                Update convention: major.minor.patch(stage of dev)<br>
+                Site Version: <div id="text-container">Loading...</div>
+            </small></small></b>
+
+            <!-- Dark mode JS -->
+            <script src="./darkmode.js"></script>
+            <!-- Version number JS -->
+            <script src="./script.js"></script>
         </aside>
     </body>
 </html>

@@ -17,7 +17,7 @@
         </style>
     </head>
 
-    <body style="background-color: gainsboro;">
+    <body>
 
         <aside style="width: 95%; padding-left: 15px; margin-left: 15px; float: right;">
 
@@ -74,8 +74,7 @@
             border-bottom: 2px solid;
             border-left: 1px solid;
             border-right: 1px solid;
-            border-radius: 2%;
-            color: black;">
+            border-radius: 2%;">
                 "He doesn't... Feel like himself anymore. Like something important within him has changed... And he can't tell what it is, or what did it.
                 This all just feels like some big thing has happened to him that he just hasn't realized yet. Maybe that maze..? What it did to him over all
                 that time..? He couldn't tell. He couldn't tell anything out of anything anymore. Maybe that whole Recon call thing was a dream. Actually,
@@ -103,13 +102,10 @@
             <!--Missing Content-->
              <p style=
             "width: 40%;
-            border: 2px solid black;
             border-radius: 15px;
             font-size: large;
-            color: black;
             background-color: crimson;
-            text-align: center;
-            box-shadow: 2px 2px;">
+            text-align: center;">
             <b style="text-shadow: 1px 1px;"><br>This page is missing content.<br><br></b>
             <small>
                 Missing content: Table of contents, Lore, Camps, Camp Lore, Gallery, etc.
@@ -117,9 +113,9 @@
             </p>
 
             <!--Middle of page: Official Description-->
-                    <p style="font-size: x-large;"><b>Official Description:</b></p>
+                    <p style="font-size: x-large;border:none;box-shadow: none;"><b>Official Description:</b></p>
                     <p style=
-                    "border: 1px solid black;
+                    "border: 1px solid;
                     width:45%;
                     border-radius: 100%;">
                     </p>
@@ -130,18 +126,23 @@
                     <a href="./abilities">Ability</a> to conjure things. To focus the energy within him into a solid object of any material he wishes.
                     His most common use for this is creating arms with it.<br><br>
             
-            <!--KEEP THIS AT VERY BOTTOM!!-->
-            <br>
-            <br>
-            <small>
-                <small style="color: gray;">
-                    <small>
-                        Update convention: major.minor.patch(stage of dev)<br>
-                    </small>
-                    Site Version: <div id="text-container">Loading...</div>
-                </small>
-            </small>
-            <script src="script.js"></script>
+        <!--Keep these at very bottom-->
+        <br>
+        <!-- Dark mode toggle button -->
+        <button id="dark-toggle" type="button" style="width: fit-content; height: fit-content;">
+            Toggle Dark Mode
+        </button>
+
+        <br><br>
+        <b><small><small>
+            Update convention: major.minor.patch(stage of dev)<br>
+            Site Version: <div id="text-container">Loading...</div>
+        </small></small></b>
+
+        <!-- Dark mode JS -->
+        <script src="./darkmode.js"></script>
+        <!-- Version number JS -->
+        <script src="./script.js"></script>
         </aside>
     </body>
 </html>

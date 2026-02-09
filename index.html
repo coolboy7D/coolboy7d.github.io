@@ -1,158 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <!--This will always be the title of the tab.-->
-        <title>Cool's Encyclopedia</title>
-        <link rel="icon" type="image/png" href="/Data/ravenpixel.png">
-        <style>
-            details {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: fit-content;
-    text-align: center;
-    background-color: blueviolet;
-    font-style: oblique;
-    font-display: auto;
-    font-weight: 900;
-    box-shadow: 2px 2px grey;}
-        </style>
-    </head>
+<head>
+    <!--Ensure version number works right-->
+    <meta charset="UTF-8">
+    <!--Tab title-->
+    <title>Cool's Encyclopedia</title>
+    <!--Tab icon-->
+    <link rel="icon" type="image/png" href="/Data/ravenpixel.png">
 
-    <body style="background-color: gainsboro;">
-        <!--Offset page from left of screen (sucked to program in btw)-->
-        <aside style=
-        "all: initial;
-        width: 95%; 
-        padding-left: 15px; 
-        margin-left: 15px; 
-        float: right;">
-        <!--Top of page: Title-->
-        <h1 style="
-        width: fit;
-        border: 4px solid darkslategrey;
-        border-radius: 40px;
-        background-color: cornflowerblue;
-        color: purple;
-        text-align: center;
-        box-shadow: 5px 5px darkslategray;">
+    <!-- Single theme link for swapping -->
+    <link id="theme-link" rel="stylesheet" href="light.css">
+    <!--Quick styles for the changelogs-->
+    <style>
+        details {
+            border: 2px solid black;
+            border-radius: 10px;
+            width: fit-content;
+            text-align: center;
+            background-color: blueviolet;
+            font-style: oblique;
+            font-weight: 900;
+            box-shadow: 2px 2px grey;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Title-->
+    <aside style="all: initial; width: 95%; padding-left: 15px; margin-left: 15px; float: right;">
+        <h1 style="width: fit; border: 4px solid darkslategrey; border-radius: 40px;
+                   background-color: cornflowerblue; color: purple; text-align: center; box-shadow: 5px 5px darkslategray;">
             Cool's Encyclopedia
         </h1>
-        <!--Top of page: Quote-->
-        <h5>
-            "We all start somewhere."
-        </h5>
-        <h6>
-            - Cool
-        </h6>
-        <!--Add "thing2" by Coolboy7D for audio for this page-->
-        <!--Top of page: Audio-->
+        <!--Quote-->
+        <h5>"We all start somewhere."</h5>
+        <h6>- Cool</h6>
+        <!--Thing2.mp3-->
         <audio controls autoplay loop>
             <source src="./Data/thing2.mp3" type="audio/mpeg">
             imagine not having audio supported by your browser, LOSER
         </audio>
         <br>
-
-        <!--Audio credit-->
-        <small>
-            "thing2" by Coolboy7D
-        </small>
-
-        <!--Top of page: Description-->
-        <p style=
-        "border: 2px solid black;
-        width: fit;
-        border-radius: 15px;
-        background-color:coral;
-        text-align: center;
-        box-shadow: 2px 2px black;">
-            Cool's Encyclopedia (CE) is a small little series of <br>
+        <small>"thing2" by Coolboy7D</small>
+        <!--Short blurb about CE-->
+        <p style="width: fit; border-radius: 15px; background-color:coral; text-align: center;">
+            Cool's Encyclopedia (CE) is a small little series of
             webpages that contain info on all of Cool's OCs!!<br>
             See some suggested pages below:<br>
 
-            <!--All the below hyperlinks are page options to go to...-->
-    
-            <!--All Pages hyperlink-->
-            <a href="./pages">
-                <abbr title="A page with a hyperlink to every page">
-                    All Pages<br><br>
-                </abbr>
-            </a>
-            <!--Keymaster's hyperlink-->
-            <a href="./keymaster">
-                <abbr title="Keymaster is Cool's first and most prized OC.">
-                    Keymaster<br><br>
-                </abbr>
-            </a>
-            <!--Raven's hyperlink-->
-            <a href="./raven">
-                <abbr title="Raven is a male book OC created by Cool">
-                    Raven<br><br>
-                </abbr>
-            </a>
-            <!--Pastel's hyperlink-->
-            <a href="./pastel">
-                <abbr title="Pastel is a female book OC created by Cool">
-                    Pastel<br><br>
-                </abbr>
-            </a>
-            <!--Abilities hyperlink-->
-            <a href="./abilities">
-                <abbr title="Abilities are perks of each and every single one of Cool's Books">
-                    Abilities
-                </abbr>
-            </a>
+            <a href="./pages"><abbr title="A page with a hyperlink to every page">All Pages<br><br></abbr></a>
+            <a href="./keymaster"><abbr title="Keymaster is Cool's first and most prized OC.">Keymaster<br><br></abbr></a>
+            <a href="./raven"><abbr title="Raven is a male book OC created by Cool">Raven<br><br></abbr></a>
+            <a href="./pastel"><abbr title="Pastel is a female book OC created by Cool">Pastel<br><br></abbr></a>
+            <a href="./abilities"><abbr title="Abilities are perks of each and every single one of Cool's Books">Abilities</abbr></a>
         </p>
 
-    <!--Changelogs:-->
-    <h2>
-        <br><br><br><br>
-        Changelog:<br>
-    </h2>
+        <h2><br><br><br><br>Changelog:<br></h2>
+        <details><summary>Beta 1.3</summary><br>Added Dark Mode!!<br><br></details>
+        <details><summary>Beta 1.2</summary><br>Made the changelogs NOT take up half the page. Added Seb and Shatter<br><br></details>
+        <details><summary>Beta 1.1</summary><br>Decided to start going by version numbers instead of days, added shatter<br><br></details>
+        <details><summary>2/4/26:</summary><br>RELEASED ON GITHUB PAGES MY GOAT!! Overhauled everyone's page<br><br></details>
+        <details><summary>2/3/26:</summary><br>Added changelog and Cool's Encyclopedia Homepage alongside keymaster, raven, pastel, and abilities.<br><br></details>
 
-    <!--Beta 1.2.0-->
-    <details>
-        <summary>Beta 1.2</summary>
-        Made the changelogs <em>NOT</em> take up half the page. Added Seb and Shatter, and moved them out of the Incomplete Pages section.
+        <!--Keep these at very bottom-->
+        <br>
+        <!-- Dark mode toggle button -->
+        <button id="dark-toggle" type="button" style="width: fit-content; height: fit-content;">
+            Toggle Dark Mode
+        </button>
 
-    </details>
-    <!--Beta 1.1.0-->
-    <details>
-        <summary>Beta 1.1</summary>
-        Decided to start going by version numbers instead of days. Easier to keep track that way, y'know? Especially because counting by days
-        can be weird to read as future statements could contradict older statements based on newer updates made throughout the day... Anyway..! The update
-        today was a wee bit delayed but it's here!! Updated many of the pages, and added Starlight, with Seb and Shatter soon to come!<br><br>
-    </details>
-    <!--2/4/26:-->
-    <details>
-        <summary>2/4/26:</summary> RELEASED ON GITHUB PAGES MY GOAT!! Overhauled Raven's page, too. Other overhauls coming later today probably. Screwed around in 30 minutes
-        trying to get Visual Studio Code to link to the GitHub repository... Keymaster's page no longer gives an error 412! Added a tab image at the top,
-        too!! It's currently Raven for most pages, but I plan on having it be each individual character for each of their own pages. The only page that
-        doesn't currently have Raven as a tab icon is Pastel, who instead has Pastel as a tab icon. Also changed Keymaster's defining trait to Confidence,
-        because Entitlement was a little <em>too</em> on the nose. Added version number at the bottom of every page!! The naming convention is right above
-        it. Changed the way page files were stored internally to allow for easier, dynamic version numbers. Keymaster is also now in the "Charater Pages"
-        section in All Pages page. Abilities page added, being the first Mechanic Page. It also was made with Raven Page Overhaul (hereby referred to as RPO)
-        It also has been moved to the Mechanic Pages section in the pages page, leaving nothing incomplete anymore! Overhauled every availible page. They're
-        also all mobile friendly now!! Yay!! <small>There's something new in the works for tomorrow...</small><br><br>
-    </details>
-    <!--2/3/26:-->
-    <details>
-        <summary>2/3/26:</summary> Added changelog and Cool's Encyclopedia Homepage and Pastel, Raven, Keymaster, and Abilities page. Though, only homepage, Raven, and Pastel
-        are availible. The rest just hand you an Error 412: Precondition Failed. The precondition being the page contents existing. Made every page look nicer.
-        Added a bunch of comments in the code, too. I really need those to see through all my spaghetti noodles... There's audio on homepage too!<br><br>
-    </details>
-    <!--KEEP THIS AT VERY BOTTOM!!-->
-    <br>
-    <br>
-    <b>
-    <small>
-        <small style="color: black;">
+        <br><br>
+        <b><small><small>
             Update convention: major.minor.patch(stage of dev)<br>
             Site Version: <div id="text-container">Loading...</div>
-        </small>
-    </small>
-    </b>
-    <script src="script.js"></script>
-        </aside>
-    </body>
+        </small></small></b>
+
+        <!-- Dark mode JS -->
+        <script src="./darkmode.js"></script>
+        <!-- Version number JS -->
+        <script src="./script.js"></script>
+    </aside>
+</body>
 </html>

@@ -15,7 +15,7 @@
         </style>
     </head>
 
-    <body style="background-color: gainsboro;">
+    <body>
         <!--That freaking offset that i hate...-->
         <aside style=
         "width: 95%;
@@ -53,12 +53,9 @@
 
                 <p style=
                 "background-color: beige;
-                border: 2px solid black;
                 border-radius: 15px;
                 width: 490px;
-                text-align: center;
-                color: black;
-                box-shadow: 2px 2px;">
+                text-align: center;">
                 <b>Mechanic Type:</b> Magic<br>
                 <b>Characters:</b> All<br>
                 <b>Notes:<br></b>
@@ -84,13 +81,11 @@
             <!--Missing Images-->
             <p style=
             "width: 40%;
-            border: 2px solid black;
             border-radius: 15px;
             text-align: center;
             font-size: large;
             background-color: crimson;
-            color: black;
-            box-shadow: 2px 2px;">
+            color: black;">
 
                 <br><b style="text-shadow: 1px 1px;">This page is missing images.</b><br><br>
 
@@ -99,13 +94,11 @@
             <!--Missing content-->
             <p style=
             "width: 40%;
-            border: 2px solid black;
             border-radius: 15px;
             text-align: center;
             font-size: large;
             background-color: crimson;
-            color: black;
-            box-shadow: 2px 2px;">
+            color: black;">
 
                 <br><b style="text-shadow: 1px 1px;">This page is missing content.</b><br><br>
 
@@ -120,26 +113,30 @@
             <!--Middle of page: Official Description-->
 
 
-                <p style="font-size: x-large;"><br><b>Official Description:</b></p>
-                <p style="border: solid 1px; width: 45%; border-radius: 100%;"></p>
-                <small>Abilities are special perks/powers of every single one of Cool's OCs. They are specific to the OC they were made for.
+                <p style="border:none;box-shadow:none;font-size: x-large;"><br><b>Official Description:</b></p>
+                <p style="box-shadow:none;border: solid 1px; width: 45%; border-radius: 100%;"></p>
+                Abilities are special perks/powers of every single one of Cool's OCs. They are specific to the OC they were made for.
                 Abilities tend to have something useful about them, and they usually relate to the OC they are a part of. Abilities can be 
-                born onto one of my OCs, or added later through lore.<br><br></small>
+                born onto one of my OCs, or added later through lore.<br><br>
 
 
-            <!--KEEP THIS AT VERY BOTTOM!!-->
+            <!--Keep these at very bottom-->
             <br>
-            <br>
-            <small>
-                <small style="color: gray;">
-                    <small>
-                        Update convention: major.minor.patch(stage of dev)<br>
-                    </small>
-                    Site Version: <div id="text-container">Loading...</div>
-                </small>
-            </small>
-            <script src="script.js"></script>
+            <!-- Dark mode toggle button -->
+            <button id="dark-toggle" type="button" style="width: fit-content; height: fit-content;">
+                Toggle Dark Mode
+            </button>
+
+            <br><br>
+            <b><small><small>
+                Update convention: major.minor.patch(stage of dev)<br>
+                Site Version: <div id="text-container">Loading...</div>
+            </small></small></b>
+
+            <!-- Dark mode JS -->
+            <script src="./darkmode.js"></script>
+            <!-- Version number JS -->
+            <script src="./script.js"></script>
         </aside>
     </body>
-    <!--Orange ig-->
 </html>

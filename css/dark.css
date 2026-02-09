@@ -1,0 +1,12 @@
+/* /css/dark.css */
+body {
+    background-color: #121212;
+    color: #eee;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a { color: #80c0ff; }
+h1,h2,h5,h6,p { color: #eee; }
+audio { filter: invert(1); }
+small { color: #eee; }
+p { border: 2px solid white; box-shadow: 2px 2px white; }
