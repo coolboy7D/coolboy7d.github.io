@@ -1,6 +1,7 @@
 (() => {
     function applyTheme(theme) {
-    document.body.classList.toggle("dark", theme === "dark");
+    const link = document.getElementById("theme-link");
+    link.href = theme === "dark" ? "/css/dark.css" : "/css/light.css";
 }
 function toggleDarkMode() {
     let current;
