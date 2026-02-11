@@ -1,6 +1,6 @@
 /* /css/dark.css */
 body {
-    background-color:rgb(34, 4, 13);
+    background-color:#2a2a2e;
     color: #eee;
     transition: background-color 0.3s, color 0.3s;
 }
