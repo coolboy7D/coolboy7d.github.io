@@ -3,9 +3,13 @@ body {
     background-color:#2a2a2e;
     color: #eee;
     transition: background-color 0.3s, color 0.5s;
+    background-image: url('/Data/darkbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1,h2,h5,h6,p { color: #eee; }
 audio { filter: invert(1); }
 small { color: #eee; }
 p { border: 4px solid black; box-shadow: 4px 4px black; }
+a {color:lightskyblue}

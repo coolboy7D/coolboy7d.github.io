@@ -3,6 +3,9 @@ body {
     background-color: gainsboro;
     color: black;
     transition: background-color 0.3s, color 0.5s;
+    background-image: url('/Data/lightbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a { color: blue; }
