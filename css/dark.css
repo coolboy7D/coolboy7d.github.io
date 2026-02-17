@@ -2,7 +2,7 @@
 body {
     background-color:#2a2a2e;
     color: #eee;
-    transition: background-color 0.3s, color 0.5s;
+    transition: background-color 0.3s, color 0.5s, background-image 0.3s;
     background-image: url('/Data/darkbg.png');
     background-repeat: no-repeat;
     background-size: cover;
