@@ -3,7 +3,7 @@ body {
     background-color: gainsboro;
     color: black;
     transition: background-color 0.3s, color 0.5s, background-image 0.3s;
-    background-image: url('/Data/lightbg.png');
+    background-image: linear-gradient(to bottom right, white, gainsboro);
     background-repeat: no-repeat;
     background-size: cover;
 }

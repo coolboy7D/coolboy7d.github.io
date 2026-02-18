@@ -3,7 +3,7 @@ body {
     background-color:#2a2a2e;
     color: #eee;
     transition: background-color 0.3s, color 0.5s, background-image 0.3s;
-    background-image: url('/Data/darkbg.png');
+    background-image: linear-gradient(to bottom right, #2a2a2e, #6C6B6E);
     background-repeat: no-repeat;
     background-size: cover;
 }
